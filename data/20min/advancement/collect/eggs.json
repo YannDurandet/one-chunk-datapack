@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_egg"
+    },
+    "title": "All the Colours",
+    "description": "Hold all three kinds of egg.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "brown_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_egg"
+          }
+        ]
+      }
+    },
+    "blue_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_egg"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "20min:root",
+  "requirements": [
+    [
+      "egg"
+    ],
+    [
+      "brown_egg"
+    ],
+    [
+      "blue_egg"
+    ]
+  ]
+}

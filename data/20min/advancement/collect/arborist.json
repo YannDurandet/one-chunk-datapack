@@ -1,0 +1,135 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": "Arborist",
+    "description": "Hold every kind of sapling.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_sapling"
+          }
+        ]
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_sapling"
+          }
+        ]
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_sapling"
+          }
+        ]
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_sapling"
+          }
+        ]
+      }
+    },
+    "pale_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_sapling"
+          }
+        ]
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_propagule"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "20min:root",
+  "requirements": [
+    [
+      "oak_sapling"
+    ],
+    [
+      "spruce_sapling"
+    ],
+    [
+      "birch_sapling"
+    ],
+    [
+      "jungle_sapling"
+    ],
+    [
+      "acacia_sapling"
+    ],
+    [
+      "dark_oak_sapling"
+    ],
+    [
+      "cherry_sapling"
+    ],
+    [
+      "pale_oak_sapling"
+    ],
+    [
+      "mangrove_propagule"
+    ]
+  ]
+}

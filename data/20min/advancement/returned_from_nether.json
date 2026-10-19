@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "back": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "function": "20min:portal/arrive"
+  }
+}
